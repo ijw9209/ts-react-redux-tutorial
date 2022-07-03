@@ -1,9 +1,11 @@
 //모듈을 여러개 만들것이므로 여기에 루트 리듀서 생성
 import { combineReducers } from "redux";
 import counter from './counter';
+import todos from './todos';
 
 const rootReducer = combineReducers({
-    counter
+    counter,
+    todos
 })
 //루트 리듀서를 내보내주세요
 export default rootReducer;
